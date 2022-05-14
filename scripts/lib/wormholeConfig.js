@@ -1,0 +1,32 @@
+module.exports = {
+  mainnets: {
+    solana: [1, "mainnet-beta", "worm2ZoG2kUd4vFXhvjh93UUH596ayRfgQ2MgjNMTth"],
+    ethereum: [2, 1, "0x98f3c9e6E3fAce36bAAd05FE09d375Ef1464288B"],
+    terra: [3, "columbus-5", "terra1dq03ugtd40zu9hcgdzrsq6z2z4hwhc9tqk2uy5"],
+    bsc: [4, 56, "0x98f3c9e6E3fAce36bAAd05FE09d375Ef1464288B"],
+    matic: [5, 137, "0x7A4B5a56256163F07b2C80A7cA55aBE66c4ec4d7"],
+    avalanchec: [6, 43114, "0x54a8e5f9c4CbA08F9943965859F6c34eAF03E26c"],
+    oasis_emerald: [7, 42262, "0xfE8cD454b4A1CA468B57D79c0cc77Ef5B6f64585"],
+  },
+  testnets: {
+    solana: [1, "devnet", "3u8hJUVTA4jH1wYAyUur7FFZVQ8H635K3tSHHF4ssjQ5"],
+    goerli: [2, 5, "0x706abc4E45D419950511e474C7B9Ed348A4a716c"],
+    ropsten: [10001, 3, "0x210c5F5e2AF958B4defFe715Dc621b7a3BA888c5"],
+    terra: [3, "bombay-12", "terra1pd65m0q9tl3v8znnz5f5ltsfegyzah7g42cx5v"],
+    bsc_testnet: [4, 97, "0x68605AD7b15c732a30b1BbC62BE8F2A509D74b4D"],
+    mumbai: [5, 80001, "0x0CBE91CF822c73C2315FB05100C2F714765d5c20"],
+    fuji: [6, 43113, "0x7bbcE28e64B3F8b84d876Ab298393c38ad7aac4C"],
+    emerald: [7, 42261, "0xc1C338397ffA53a2Eb12A7038b4eeb34791F8aCb"],
+    fantom: [10, 4002, "0x1BB3B4119b7BA9dfad76B0545fb3F531383c3bB7"],
+    karura: [11, "", "0xE4eacc10990ba3308DdCC72d985f2a27D20c7d03"],
+    acala: [12, "", "0x4377B49d559c0a9466477195C6AdC3D433e265c0"],
+  },
+  byChainId: {
+    1: [2, "0x98f3c9e6E3fAce36bAAd05FE09d375Ef1464288B"],
+    56: [4, "0x98f3c9e6E3fAce36bAAd05FE09d375Ef1464288B"],
+    3: [10001, "0x210c5F5e2AF958B4defFe715Dc621b7a3BA888c5"],
+    97: [4, "0x68605AD7b15c732a30b1BbC62BE8F2A509D74b4D"],
+    5: [2, "0x706abc4E45D419950511e474C7B9Ed348A4a716c"],
+    80001: [5, "0x0CBE91CF822c73C2315FB05100C2F714765d5c20"],
+  },
+};
